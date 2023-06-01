@@ -1,0 +1,37 @@
+[{
+  "_id": {
+    "$oid": "6478b8839a3a569eb892fa5d"
+  },
+  "name": "akul",
+  "email": "akul@gmail.com",
+  "phone": "58395385385",
+  "password": "$2a$10$0gx2hvfJ8AkcMTMqOejGzuvxgDO79amlEyMnTXDQDAlWNhadq/Oqi",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6478bd577c5f5fca9122c428"
+  },
+  "name": "akul123",
+  "email": "akul@gmail.com",
+  "phone": "58395385385",
+  "password": "$2a$10$HLJVNJIF1r565OxFrBhKeu.gAjTaUhr9hJYQQgVZA/EJjPpmSE8F2",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6478bf87a4e3e9ed4c75ee1d"
+  },
+  "name": "akul12345",
+  "email": "akul@gmail.com",
+  "phone": "58395385385",
+  "password": "$2a$10$ef3UNWoq.C/FfS8LpIG45.KdtnhSbr2Hkw5kXDhgrad7nY13WqJ8K",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6478c2a364c300287edd3d02"
+  },
+  "name": "akul123456",
+  "email": "akul@gmail.com",
+  "phone": "58395385385",
+  "password": "$2a$10$Tpt5Mlo96VeFLN97cnMS9uAwUy1J6JFAMP7r17jLxxs8F/R2EG0LW",
+  "__v": 0
+}]

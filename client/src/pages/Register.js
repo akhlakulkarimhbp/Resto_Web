@@ -9,6 +9,7 @@ function Register() {
                 <div>
                     <input type='text' placeholder='name' className='form-control'/><br/>
                     <input type='text' placeholder='email' className='form-control'/><br/>
+                    <input type='text' placeholder='password' className='form-control'/><br/>
                     <input type='text' placeholder='password' className='form-control'/>
                     <button className='btn mt-5'>REGISTER</button>
                 </div>

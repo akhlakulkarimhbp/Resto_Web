@@ -8,9 +8,12 @@ const userSchema = new Schema({
     email: {
         type: String
     },
+    phone: {
+        type: String
+    },
     password: {
         type: String
-    }
+    },
 })
 
 const User = mongoose.model('user', userSchema)
