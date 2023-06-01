@@ -1,0 +1,181 @@
+[{
+  "_id": {
+    "$oid": "6470580ca105a639a6f6021b"
+  },
+  "name": "PEPPER BARBECUE CHICKEN",
+  "varients": [
+    "small",
+    "medium",
+    "large"
+  ],
+  "prices": [
+    {
+      "small": 140,
+      "medium": 350,
+      "large": 400
+    }
+  ],
+  "category": "nonveg",
+  "image": "https://www.dominos.co.in/files/items/Pepper_Barbeque.jpg",
+  "description": "Pepper Barbecue Chicken I Cheese"
+},{
+  "_id": {
+    "$oid": "647447a45426e5d9a2492488"
+  },
+  "name": "CHICKEN SAUSAGE",
+  "varients": [
+    "small",
+    "medium",
+    "large"
+  ],
+  "prices": [
+    {
+      "small": 120,
+      "medium": 320,
+      "large": 420
+    }
+  ],
+  "category": "nonveg",
+  "image": "https://www.dominos.co.in/files/items/Deluxe_Veggie.jpg",
+  "description": "Chicken Sausage & Cheese"
+},{
+  "_id": {
+    "$oid": "647447c35426e5d9a249248a"
+  },
+  "name": "MARGHERITA",
+  "varients": [
+    "small",
+    "medium",
+    "large"
+  ],
+  "prices": [
+    {
+      "small": 150,
+      "medium": 250,
+      "large": 350
+    }
+  ],
+  "category": "veg",
+  "image": "https://www.dominos.co.in/files/items/Margherit.jpg",
+  "description": "A hugely popular margherita, with a deliciously tangy single cheese topping"
+},{
+  "_id": {
+    "$oid": "647447d75426e5d9a249248c"
+  },
+  "name": "MEXICAN GREEN WAVE",
+  "varients": [
+    "small",
+    "medium",
+    "large"
+  ],
+  "prices": [
+    {
+      "small": 130,
+      "medium": 250,
+      "large": 300
+    }
+  ],
+  "category": "veg",
+  "image": "https://www.dominos.co.in/files/items/Pepper_Barbeque_&_Onion.jpg",
+  "description": "The ever-popular Margherita - loaded with extra cheese... oodies of it!"
+},{
+  "_id": {
+    "$oid": "647447ea5426e5d9a249248e"
+  },
+  "name": "PEPPY PANEER",
+  "varients": [
+    "small",
+    "medium",
+    "large"
+  ],
+  "prices": [
+    {
+      "small": 200,
+      "medium": 350,
+      "large": 400
+    }
+  ],
+  "category": "veg",
+  "image": "https://www.dominos.co.in/files/items/Double_Cheese_Margherita.jpg",
+  "description": "Chunky paneer with crisp capsicum and spicy red pepper - quite a mouthful!"
+},{
+  "_id": {
+    "$oid": "64744a0b5426e5d9a2492491"
+  },
+  "name": "Non Veg Supreme",
+  "varients": [
+    "small",
+    "medium",
+    "large"
+  ],
+  "prices": [
+    {
+      "small": 100,
+      "medium": 250,
+      "large": 300
+    }
+  ],
+  "category": "nonveg",
+  "image": "https://www.dominos.co.in/files/items/Mexican_Green_Wave.jpg",
+  "description": "Bite into supreme delight of Black Olives, Onions, Grilled Mushrooms, Pepper BBQ Chicken, Peri-Peri Chicken, Grilled Chicken Rashers"
+},{
+  "_id": {
+    "$oid": "647456fc5426e5d9a2492494"
+  },
+  "name": "CHICKEN GOLDEN DELIGHT",
+  "varients": [
+    "small",
+    "medium",
+    "large"
+  ],
+  "prices": [
+    {
+      "small": 190,
+      "medium": 380,
+      "large": 470
+    }
+  ],
+  "category": "nonveg",
+  "image": "https://www.dominos.co.in/files/items/MicrosoftTeams-image_(14).png",
+  "description": "Treat your taste buds with Double Pepper Barbecue Chicken, Peri-Peri Chicken, Chicken Tikka"
+},{
+  "_id": {
+    "$oid": "6474570b5426e5d9a2492496"
+  },
+  "name": "CHICKEN DOMINATOR",
+  "varients": [
+    "small",
+    "medium",
+    "large"
+  ],
+  "prices": [
+    {
+      "small": 180,
+      "medium": 390,
+      "large": 470
+    }
+  ],
+  "category": "nonveg",
+  "image": "https://www.dominos.co.in/files/items/MicrosoftTeams-image_(11).png",
+  "description": "Treat your taste buds with Double Pepper Barbecue Chicken, Peri-Peri Chicken, Chicken Tikka"
+},{
+  "_id": {
+    "$oid": "6474571e5426e5d9a2492498"
+  },
+  "name": "PEPPER BARBECUE & ONION",
+  "varients": [
+    "small",
+    "medium",
+    "large"
+  ],
+  "prices": [
+    {
+      "small": 160,
+      "medium": 370,
+      "large": 420
+    }
+  ],
+  "category": "nonveg",
+  "image": "https://www.dominos.co.in/files/items/MicrosoftTeams-image_(13).png",
+  "description": "Pepper Barbecue Chicken I Onion"
+}]
