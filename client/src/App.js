@@ -13,6 +13,7 @@ import LoginScreen from "./pages/LoginScreen";
 import RegisterScreen from "./pages/Register";
 import Cartscreen from "./pages/CartScreen";
 import Orders from "./pages/Orders";
+import Profil from './pages/Profile'
 
 
 function App() {
@@ -26,6 +27,8 @@ function App() {
           <Route path="/login" exact Component={LoginScreen}/>
           <Route path="/register" exact Component={RegisterScreen}/>
           <Route path="/cart" exact Component={Cartscreen} />
+          <Route path='profil/:id' exact Component={Profil}/>
+        
           <Route path='/orders' exact Component={Orders}/>
           <Route path="*" Component={()=> {
             return <div>HALAMAN NOT FOUND</div>

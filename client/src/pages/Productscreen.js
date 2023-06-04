@@ -29,12 +29,6 @@ export default function Productscreen() {
         style={{ width: "30%" }}
         className=" mb-3 shadow-lg bg-white rounded"
       >
-        {/* <form>
-          <input type="text" placeholder="Search" />
-          <button type="button" className="btn btn-primary">
-            Search
-          </button>
-        </form> */}
         <div>
           <button onClick={()=> setProducts(products)} type="button" className=" m-2 btn-primary">
             ALL
