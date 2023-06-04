@@ -4,15 +4,16 @@ import bootstrap from "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import {
   BrowserRouter as Router,
   Route,
-  Routes,
-  Link,
-  Switch,
+  Routes
 } from "react-router-dom";
+import 'bootstrap'
 import Navbar from "./components/Navbar";
 import Productscreen from "./pages/Productscreen";
 import LoginScreen from "./pages/LoginScreen";
 import RegisterScreen from "./pages/Register";
 import Cartscreen from "./pages/CartScreen";
+import Orders from "./pages/Orders";
+
 
 function App() {
   return (
@@ -20,10 +21,16 @@ function App() {
       <Navbar />
       <Router>
         <Routes>
+          
           <Route path="/" exact Component={Productscreen} />
-          <Route path="/cart" exact Component={Cartscreen} />
           <Route path="/login" exact Component={LoginScreen}/>
           <Route path="/register" exact Component={RegisterScreen}/>
+          <Route path="/cart" exact Component={Cartscreen} />
+          <Route path='/orders' exact Component={Orders}/>
+          <Route path="*" Component={()=> {
+            return <div>HALAMAN NOT FOUND</div>
+          }}  />
+
         </Routes>
       </Router>
     </div>

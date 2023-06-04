@@ -20,7 +20,9 @@ export default function Product({ product }) {
   }
 
   return (
+    
     <div className="shadow-lg p-3 mb-5 bg-white rounded">
+      
       <div onClick={handleShow} >
         <h1>{product.name}</h1>
         <img

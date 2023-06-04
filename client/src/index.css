@@ -54,3 +54,8 @@ h1 {
 .fa-trash {
   color: red;
 }
+
+.active {
+  background-color: #6759ff;
+  color: white;
+}

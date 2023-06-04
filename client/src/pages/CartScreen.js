@@ -2,6 +2,7 @@ import React from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { addToCart } from "../actions/cartAction";
 import { deleteFromCart } from "../actions/cartAction";
+import Checkout from "../components/Checkout";
 
 export default function CartScreen() {
   const cartstate = useSelector((state) => state.cartReducer);
@@ -19,7 +20,7 @@ export default function CartScreen() {
           <h2 style={{ fontSize: "30px" }}>My Cart</h2>
           {cartItems.map((item) => {
             return (
-              <div className="flex-container" style={{marginLeft: '280px'}}>
+              <div className="flex-container" style={{ marginLeft: "280px" }}>
                 <div className="m-1 w-40">
                   <img src={item.image} style={{ height: "150px" }} alt="" />
                 </div>
@@ -49,8 +50,6 @@ export default function CartScreen() {
                     onClick={() => {
                       dispatch(
                         addToCart(item, item.quantity - 1, item.varient)
-                        // (item.quantity =
-                        //   item.quantity === 0 ? 0 : item.quantity - 1)
                       );
                     }}
                   ></i>
@@ -69,8 +68,10 @@ export default function CartScreen() {
             );
           })}
           <div className="w-100">
-            <h2 style={{ fontSize: 30,marginRight: 180 }}>TOTAL: {subtotal}</h2>
-            <button className="btn" style={{marginRight: 220}}>CHECK OUT</button>
+            <h2 style={{ fontSize: 30, marginRight: 180 }}>
+              TOTAL: {subtotal}
+            </h2>
+            <Checkout subtotal={subtotal} />
           </div>
         </div>
       </div>
