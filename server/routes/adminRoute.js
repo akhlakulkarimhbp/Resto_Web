@@ -21,7 +21,6 @@ router.post("/login-admin", async (req, res) => {
       const currentAdmin = {
         name: admin[0].name,
         email: admin[0].email,
-        isAdmin: admin[0].isAdmin,
         _id: admin[0]._id,
       };
       res.send(currentAdmin);

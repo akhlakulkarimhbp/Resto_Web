@@ -2,7 +2,6 @@ import "./App.css";
 // eslint-disable-next-line no-unused-vars
 import bootstrap from "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import {
-  BrowserRouter as Router,
   Route,
   Routes
 } from "react-router-dom";
@@ -20,7 +19,7 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <Router>
+ 
         <Routes>
           
           <Route path="/" exact Component={Productscreen} />
@@ -35,7 +34,7 @@ function App() {
           }}  />
 
         </Routes>
-      </Router>
+
     </div>
   );
 }
