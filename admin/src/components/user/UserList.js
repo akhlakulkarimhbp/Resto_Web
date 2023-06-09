@@ -27,7 +27,7 @@ const UserList = () => {
 
   return (
     <div className="columns">
-      <div className="column is-half mt-5 has-centered m-6">
+      <div className="column is-half mt-5 has-centered m-5">
         <h2 style={{ fontSize: 40 }}>User</h2>
         <br />
         <Link to="/add" className="button is-success">
