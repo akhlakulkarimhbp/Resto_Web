@@ -38,7 +38,7 @@ function EditUser() {
     } catch (error) {
       console.log(error);
     }
-    location.reload();
+    window.location.reload();
   };
 
   return (
