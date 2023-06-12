@@ -35,6 +35,7 @@ export default function Profile() {
     } catch (error) {
       console.log(error);
     }
+    window.location.reload();
   };
 
   return (

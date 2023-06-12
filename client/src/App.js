@@ -26,8 +26,7 @@ function App() {
           <Route path="/login" exact Component={LoginScreen}/>
           <Route path="/register" exact Component={RegisterScreen}/>
           <Route path="/cart" exact Component={Cartscreen} />
-          <Route path='profil/:id' exact Component={Profil}/>
-        
+          <Route path='profil/:id' exact Component={Profil}/> 
           <Route path='/orders' exact Component={Orders}/>
           <Route path="*" Component={()=> {
             return <div>HALAMAN NOT FOUND</div>

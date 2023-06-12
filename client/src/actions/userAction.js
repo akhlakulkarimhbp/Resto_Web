@@ -5,7 +5,7 @@ export const registerUser=(user)=> async dispatch=>{
 
     try{
       
-        const response = await axios.post('http://localhost:5000/api/users/register', user)
+        const response = await axios.post('http://localhost:5000/register', user)
         console.log(response)
         dispatch({type: 'USER_REGISTER_SUCCESS'})
         window.location.href='/login'
@@ -19,7 +19,7 @@ export const loginUser=(user)=> async dispatch=>{
 
     try{
       
-        const response = await axios.post('http://localhost:5000/api/users/login', user)
+        const response = await axios.post('http://localhost:5000/login', user)
         console.log(response);
         dispatch({type: 'USER_LOGIN_SUCCESS', payload: response.data})
         localStorage.setItem('currentUser', JSON.stringify(response.data))
