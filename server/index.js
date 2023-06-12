@@ -19,8 +19,8 @@ db.once('open', () => console.log('Database Connected...'));
 app.use(cors());
 app.use(express.json());
 app.use(ProductRoute);
-app.use('/api/admin', adminRoute);
-app.use('/api/users/', userRoute)
+app.use(adminRoute);
+app.use(userRoute)
 
 
 app.listen(5000, ()=> console.log('Server up and running...'));
